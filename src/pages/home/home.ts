@@ -22,9 +22,9 @@ export class HomePage {
   
     const file = new Audio ('http://104.131.18.232/proxy/supernova?mp=/stream;');
   
-    file.play();
-      play.style.display ="none";
-      loader.style.display ="block";
+    // file.play();
+      play.style.display ="block";
+      loader.style.display ="none";
       stop.style.display= "none";
   
     file.addEventListener('playing',function(){
