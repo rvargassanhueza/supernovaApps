@@ -46,7 +46,7 @@ page-home {
 .red{
     border: 2px solid #eee;
     border-radius: 200px;
-    font-size: 16pt;
+    font-size: 15px;
     padding: 10px;
     margin-left: 5px;
 }
@@ -70,10 +70,9 @@ page-home {
     text-decoration: none;
 }
 
-.background{
+.background_logo{
     background-image: url(../../assets/imgs/40933057-abstract-pattern-hexagon-on-dark-blue-color-background.jpg);
     width: 100%;
-    height: 25%;
     background-repeat: round;
 }
 
@@ -87,8 +86,8 @@ page-home {
     background-image: url(../../assets/imgs/podcast.jpg);
 }
 
-.background_bottom{
-    width: 100%;
-    height: 25%; 
+.backround_bottom{
     background-image: url(../../assets/imgs/40933057-abstract-pattern-hexagon-on-dark-blue-color-background.jpg);
+    width: 100%;
+    background-repeat: round;
 }
